@@ -1,26 +1,30 @@
 # data-structures-and-algorithms-project1
 
 
-This was my first project for Data Structures And Algorithms lecture in university. The explanation made was as follows:
+*This was my first project for Data Structures And Algorithms lecture in university. The explanation made was as follows:
 
 
-Problem 1: Loose the letter and table
+**Problem 1: Loose the letter and table**
 
   1. N people are sitting around a table to play a game. Each of these people has a name. On each turn,
      a random number k [1<=k<=N] is chosen. The kth person loses one letter* from his/her name. 
      If a person has no letters left in his/her name, he/she loses the game, and will be removed from 
      the table. The last person who is still in the table, wins the game. 
+     
         a. You will implement circular linked list based program to simulate this scenario. 
+        
         b. The names are chosen randomly from the class.txt. Use only the first names. If you like,
            you can limit the characters in a name with 5 or 6 to give equal chance to all names. 
+           
         c. Your program must display the value of k in each turn, the selected student, and the 
            whole list of names (put an indicator to one who just lost a letter from his/her name)
+           
         d. At the end, program displays the winner. 
         
-*You can use all String and File (Scanner) library functions. 
+*You can use all String and File (Scanner) library functions.* 
 
 
-Problem 2: Student message transfer line
+**Problem 2: Student message transfer line**
 
   2. Each student in a line can pass a message (a string) to any other student after him/her. When a 
      message request arrives to the first student (source), it can pass the message to other two /three 
